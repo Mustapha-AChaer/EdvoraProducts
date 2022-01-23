@@ -1,7 +1,7 @@
 @import "../../scss/index.scss";
 .main-div {
   background-color: $heavy-black;
-  height: 30rem;
+  height: 25rem;
   width: 23rem;
   @include columnflex;
   border-radius: 20px;
