@@ -1,0 +1,26 @@
+@import "vars";
+@import "mixin";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: $light-black;
+}
+
+.appParent {
+  @include rowflex;
+}

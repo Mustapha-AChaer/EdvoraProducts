@@ -1,0 +1,26 @@
+@import "../../scss/index.scss";
+.main-div {
+  background-color: $heavy-black;
+  height: 30rem;
+  width: 23rem;
+  @include columnflex;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  color: grey;
+  padding: 0.8rem;
+  align-self: flex-start;
+}
+
+.header {
+  flex: 1;
+  @include rowflex;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  border-bottom: 1px solid white;
+  width: 90%;
+}
+
+.dropdown-box {
+  @include columnflex;
+  flex: 6;
+}

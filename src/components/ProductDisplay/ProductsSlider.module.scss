@@ -1,0 +1,21 @@
+@import "../../scss/index.scss";
+
+section {
+  margin: 1.5rem 0;
+}
+
+.title {
+  color: white;
+  border-bottom: 1px solid white;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.slider {
+  background-color: $heavy-black;
+  height: 25rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 100%;
+  @include rowflex;
+}

@@ -1,0 +1,19 @@
+@import "../../scss/index.scss";
+.section {
+  flex: 9;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.secondary-title {
+  color: grey;
+  font-size: 2.5rem;
+}
